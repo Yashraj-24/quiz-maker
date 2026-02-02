@@ -43,7 +43,7 @@ export const authConfig = {
           pass: process.env.EMAIL_PASSWORD ?? "",
         },
       },
-      from: process.env.EMAIL_FROM ?? "sarthakvitmal0829@gmail.com",
+      from: process.env.EMAIL_FROM ?? "yashrajchoudhary24@gmail.com",
       ...(process.env.NODE_ENV === "production" ? {
       sendVerificationRequest({url}){
         console.log("Login Link: ", url);
